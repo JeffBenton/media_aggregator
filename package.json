@@ -1,0 +1,6 @@
+{
+  "name": "Social_Media_Aggregator",
+  "dependencies": {
+    "express": "*"
+  }
+}
