@@ -6,8 +6,7 @@ app.use(express.static(path.join(__dirname, './static')));
 app.set('views', path.join(__dirname, './static'));
 app.set('view engine', 'ejs');
 
-app.get('/', function(req, res){
-   res.render('index');
-});
+require('./config/mysql.js');
+require('./config/routes.js')(app);
 
 app.listen(8000);
