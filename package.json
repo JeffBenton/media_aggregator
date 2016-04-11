@@ -1,5 +1,6 @@
 {
   "name": "Social_Media_Aggregator",
+  "author": "Jeff Benton",
   "dependencies": {
     "express": "*",
     "ejs": "*",
